@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  font-family: 'inter', sans-serif;
+}
+
+body {
+  width: auto;
+  height: auto;
+  background: #F3F5FC;
+}
+
+.logo {
+  display: flex;
+  position: relative  ;
+  margin-top: 2%;
+  margin-left: 4%;
+
+}
+
+.section-one{
+  margin-top: 0.4%;
+  margin-left: 24%;
+}
+
+.input-texto {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 400px;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 400;
+  background: transparent;
+  color: #0A3871;
+  resize: none;
+  border: none;
+  outline: none;
+
+}
+
+.info-img{
+  position: absolute;
+  margin-top: 420px;
+  width: 16px;
+  height: 16px;
+  opacity: 80%;
+}
+
+.info {
+  position: absolute;
+  margin-top: 422px;
+  margin-left: 24px;
+  opacity: 80%;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  margin-top: 470px;
+  margin-left: 24px;
+  
+}
+
+.encriptografar, .descriptografar{
+  background: #0A3871;
+  width: 260px;
+  height: 65px;
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 18px;
+  border: none;
+  margin-right: 20px;
+}
+
+.encriptografar:hover{
+  background: #356EA9;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .5s;
+}
+
+.descriptografar{
+  background: #D8DFE8;
+  color: #0A3871;
+}
+
+.descriptografar:hover{
+  background: #AAB2D5;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .5s;
+}
+
+
+.section-two{
+  margin-top: 40px;
+  margin-left: 900px;
+}
+
+.output-texto{
+  position: absolute;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  width: 310px;
+  height: 480px;
+  left: 1000px;
+  top: 65px;
+  border-radius: 32px;
+  background-color: #ffffff;
+  font-size: 18px;
+  padding: 1%;
+  resize: none;
+  border: none;
+  outline: none;
+  
+}
+
+.output-texto::placeholder{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #343A40;
+  opacity: 75%;
+  flex: none;
+  order: 0; 
+  align-self: stretch;
+  flex-grow: 0;
+  padding-top: 50%;
+}
+
+.copiar {
+
+  position: absolute;
+  background: #0A3871;
+  width: 260px;
+  height: 65px;
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 18px;
+  border: none;
+  margin-top: 475px;
+  margin-left: 150px;
+  margin-right: 20px;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  
+
+
+}
